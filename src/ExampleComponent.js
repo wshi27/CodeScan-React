@@ -10,8 +10,9 @@ const[count, setCount] = useState(0);
 return (
   <div>
     <button onClick={()=>setCount(count + 1)}>Increase count</button>
-    <p>You've clicked the button {count} times.</p>
     <button onClick={()=>setCount(count -1)}>Decrease count</button>
+    <p>You've clicked the button {count} times.</p>
+    
   </div>
 )
 }
