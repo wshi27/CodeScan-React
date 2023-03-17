@@ -11,6 +11,7 @@ return (
   <div>
     <button onClick={()=>setCount(count + 1)}>Click me!</button>
     <p>You've clicked the button {count} times.</p>
+    <button onClick={()=>setCount(count -1)}>Decrease count</button>
   </div>
 )
 }
